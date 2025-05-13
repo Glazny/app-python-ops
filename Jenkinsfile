@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/Glazny/app-python-ops.git', branch: 'main'
+                git url: 'https://github.com/Glazny/app-python.git', branch: 'main'
             }
         }
 
